@@ -1,0 +1,17 @@
+<nav class="navbar" role = "navigation">
+    <div class = "container-fluid">
+        <!-- <a href="/" class="main-logo"></a> -->
+        <ul class="nav navbar-nav pull-left">
+            <li><%= link_to root_path, {:style=>'text-decoration:none; color: black;'} do %>
+                TNM
+            <% end %>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+            <li><%= link_to contact_path, {:style=>'text-decoration:none; color: black;'} do %>
+                <span class = "glyphicon glyphicon-pencil"></span> Contact Us
+                <% end %>
+            </li>
+        </ul>
+    </div>
+</nav>

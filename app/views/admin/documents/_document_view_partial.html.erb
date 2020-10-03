@@ -1,0 +1,18 @@
+<% if @document.file_type == '.csv'  %>
+  <table>
+      <tr>
+      <% @headers.each do |header| %>
+          <th><%= header %></th>
+      <% end %>
+      </tr>
+      <% @data.each do |row| %>
+      <tr>
+        <% row.each do |column| %>
+          <td><%= column %></td>
+        <% end %>
+      </tr>
+      <% end %>
+  </table>
+<% else  %> 
+  <%= image_tag "data:image/png;base64,#{Base64.encode64(@data).gsub("\n", "")}" %>
+<% end %>
