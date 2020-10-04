@@ -1,6 +1,7 @@
 # ruby-rails-sample 2
 
 This is a simple Active Admin Rails app with file upload, moderation, and custom download capability. Supported file formats include csv and all image formats
+Live Link - https://blooming-inlet-04692.herokuapp.com
 
 ## Running Locally
 
@@ -18,7 +19,7 @@ Your app should now be running on [localhost:3000/](http://localhost:3000/).
 ## Demo/Use Cases
 
 ```sh
-visit localhost:3000
+visit localhost:3000 or https://blooming-inlet-04692.herokuapp.com
 click on Admin in the top-right section of the header
 login using test users: email: demo@sonar.com password: demo
 click on Documents and create a new document
