@@ -2,14 +2,14 @@
     <div class = "container-fluid">
         <!-- <a href="/" class="main-logo"></a> -->
         <ul class="nav navbar-nav pull-left">
-            <li><%= link_to root_path, {:style=>'text-decoration:none; color: black;'} do %>
-                TNM
+            <li><%= link_to root_path do %>
+                Sonar
             <% end %>
             </li>
         </ul>
         <ul class="nav navbar-nav pull-right">
-            <li><%= link_to contact_path, {:style=>'text-decoration:none; color: black;'} do %>
-                <span class = "glyphicon glyphicon-pencil"></span> Contact Us
+            <li><%= link_to admin_root_path do %>
+                <span class = "glyphicon glyphicon-pencil"></span> Admin
                 <% end %>
             </li>
         </ul>

@@ -1,28 +1,48 @@
-== README
+# ruby-rails-sample 2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple Active Admin Rails app with file upload, moderation, and custom download capability. Supported file formats include csv and all image formats
 
-Things you may want to cover:
+## Running Locally
 
-* Ruby version
+Make sure you have [Ruby](https://www.ruby-lang.org), [Bundler](http://bundler.io) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
-* System dependencies
+```sh
+git clone https://github.com/AChuks/sonar-active-admin.git # or clone your own fork
+cd sonar-active-admin
+bundle install
+rails s
+```
 
-* Configuration
+Your app should now be running on [localhost:3000/](http://localhost:3000/).
 
-* Database creation
+## Demo/Use Cases
 
-* Database initialization
+```sh
+visit localhost:3000
+click on Admin in the top-right section of the header
+login using test users: email: demo@sonar.com password: demo
+click on Documents and create a new document
+```
 
-* How to run the test suite
+Your app should now be running on [localhost:3000/](http://localhost:5000/).
 
-* Services (job queues, cache servers, search engines, etc.)
+## Deploying to Heroku
 
-* Deployment instructions
+```
+heroku create
+git push heroku master
+heroku run rake db:migrate
+heroku open
+```
 
-* ...
+Alternatively, you can deploy your own copy of the app using the web-based flow:
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Documentation
+
+For more information about using Ruby on Heroku, see these Dev Center articles:
+
+- [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
+- [Getting Started with Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby)
+- [Heroku Ruby Support](https://devcenter.heroku.com/articles/ruby-support)
