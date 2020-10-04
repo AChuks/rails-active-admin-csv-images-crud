@@ -22,7 +22,7 @@ Your app should now be running on [localhost:3000/](http://localhost:3000/).
 visit localhost:3000 or https://blooming-inlet-04692.herokuapp.com
 click on Admin in the top-right section of the header
 login using test users: email: admin@example.com password: password
-click on Documents and create a new document
+click on Documents and tap New Document or interact with existing documents
 download 'document' to download uploaded document or download model attributes in different formats (csv, XML, JSON)
 ```
 

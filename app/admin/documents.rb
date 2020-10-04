@@ -38,6 +38,12 @@ ActiveAdmin.register Document do
     active_admin_comments
   end
 
+  csv do
+    column :id
+    column :title
+    column :file_name 
+  end
+
   controller do
 
     def process_file
