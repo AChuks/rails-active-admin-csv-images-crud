@@ -21,8 +21,9 @@ Your app should now be running on [localhost:3000/](http://localhost:3000/).
 ```sh
 visit localhost:3000 or https://blooming-inlet-04692.herokuapp.com
 click on Admin in the top-right section of the header
-login using test users: email: demo@sonar.com password: demo
+login using test users: email: admin@example.com password: password
 click on Documents and create a new document
+download 'document' to download uploaded document or download model attributes in different formats (csv, XML, JSON)
 ```
 
 Your app should now be running on [localhost:3000/](http://localhost:5000/).
