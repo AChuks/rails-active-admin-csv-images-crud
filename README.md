@@ -1,4 +1,4 @@
-# ruby-rails-sample 2
+# ruby-rails-sonar-active-admin
 
 This is a simple Active Admin Rails app with file upload, moderation, and custom download capability. Supported file formats include csv and all image formats
 Live Link - https://blooming-inlet-04692.herokuapp.com
